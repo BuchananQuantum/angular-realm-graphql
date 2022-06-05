@@ -27,7 +27,7 @@ const GET_MOVIE_WITH_COMMENTS = gql`
       }
     }
     
-    comments(query: { movie_id: { _id: $movie_id } }, limit: 5, sortBy: DATE_DESC) {
+    comments(query: { movie_id: $movie_id  }, limit: 5, sortBy: DATE_DESC) {
       name,
       date,
       text

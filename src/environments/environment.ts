@@ -1,6 +1,6 @@
 export const environment = {
   production: false,
-  APP_ID: '<your-app-id>',
-  GRAPHQL_URI: '<your-graphql-uri>',
-  API_KEY: '<your-api-key>',
+  APP_ID: 'realmsync-mknll',
+  GRAPHQL_URI: 'https://us-east-1.aws.realm.mongodb.com/api/client/v2.0/app/realmsync-mknll/graphql',
+  API_KEY: 'i9KMNHBrKlRRGWUUGadjlUWPMHAsl8te8rKUXRm5UuyVqdhIdyN58mj2WCGM9MUe',
 };
