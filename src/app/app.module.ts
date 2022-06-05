@@ -30,6 +30,7 @@ import { SettingsEditComponent } from './components/account/settings-edit/settin
 import { UserListingsComponent } from './components/account/user-listings/user-listings.component';
 import { ClassifiedSearchComponent } from './components/classified-search/classified-search.component';
 import { ClassifiedFiltersComponent } from './components/classified-filters/classified-filters.component';
+import { AuthModule } from '@auth0/auth0-angular';
 
 @NgModule({
   declarations: [
@@ -64,6 +65,10 @@ import { ClassifiedFiltersComponent } from './components/classified-filters/clas
     GraphQLModule,
     HttpClientModule,
     CommonModule,
+    AuthModule.forRoot({
+      domain: 'forcesale.us.auth0.com',
+      clientId: 'ORihMlUHif5z7FiswGxGoBaTmMRKS7Ms'
+    }),
     ReactiveFormsModule,
   ],
   providers: [],

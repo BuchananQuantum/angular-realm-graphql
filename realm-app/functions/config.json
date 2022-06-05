@@ -2,5 +2,10 @@
     {
         "name": "loadCommentsOffset",
         "private": false
+    },
+    {
+        "name": "login",
+        "private": false,
+        "disable_arg_logs": true
     }
 ]
