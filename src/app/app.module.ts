@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { AuthModule } from '@auth0/auth0-angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -65,6 +66,10 @@ import { ClassifiedFiltersComponent } from './components/classified-filters/clas
     HttpClientModule,
     CommonModule,
     ReactiveFormsModule,
+    AuthModule.forRoot({
+      domain: 'forcesale.us.auth0.com',
+      clientId: 'ORihMlUHif5z7FiswGxGoBaTmMRKS7Ms'
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]
