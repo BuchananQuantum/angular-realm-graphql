@@ -1,6 +1,6 @@
 {
     "collection": "users",
-    "database": "db-name",
+    "database": "sample_mflix",
     "roles": [
         {
             "name": "owner",

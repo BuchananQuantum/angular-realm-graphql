@@ -1,0 +1,33 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "connection": {
+            "bsonType": "string"
+        },
+        "debug": {
+            "bsonType": "bool"
+        },
+        "email": {
+            "bsonType": "string"
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "password": {
+            "bsonType": "string"
+        },
+        "preferences": {
+            "bsonType": "object",
+            "properties": {}
+        },
+        "tenant": {
+            "bsonType": "string"
+        },
+        "user_id": {
+            "bsonType": "string"
+        }
+    },
+    "title": "user"
+}
