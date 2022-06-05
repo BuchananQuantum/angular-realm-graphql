@@ -31,6 +31,9 @@ import { UserListingsComponent } from './components/account/user-listings/user-l
 import { ClassifiedSearchComponent } from './components/classified-search/classified-search.component';
 import { ClassifiedFiltersComponent } from './components/classified-filters/classified-filters.component';
 import { AuthModule } from '@auth0/auth0-angular';
+import { LoginComponent } from './auth/login/login.component';
+import { UserProfileComponent } from './auth/user-profile/user-profile.component';
+import { ConnectionsComponent } from './interface/connections/connections.component';
 
 @NgModule({
   declarations: [
@@ -58,6 +61,9 @@ import { AuthModule } from '@auth0/auth0-angular';
     UserListingsComponent,
     ClassifiedSearchComponent,
     ClassifiedFiltersComponent,
+    LoginComponent,
+    UserProfileComponent,
+    ConnectionsComponent,
   ],
   imports: [
     BrowserModule,
